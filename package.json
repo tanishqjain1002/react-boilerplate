@@ -1,28 +1,33 @@
 {
   "name": "react-boilerplate",
   "version": "1.0.0",
-  "description": "A ready to use simple webpack boilerplate",
+  "description": "React Boilerplate",
   "main": "src/index.js",
   "scripts": {
     "dev": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production",
     "watch": "webpack --watch --mode production"
   },
-  "author": "pinglinh",
+  "author": "Tanishq Jain <tanishqjain1002@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
-    "css-loader": "^0.28.11",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
     "html-webpack-plugin": "^3.1.0",
-    "style-loader": "^0.20.3",
+    "mini-css-extract-plugin": "^0.4.1",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
     "webpack": "^4.16.5",
     "webpack-cli": "^2.0.13",
     "webpack-dev-server": "^3.1.5"
   },
   "dependencies": {
+    "dotenv": "^6.0.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
